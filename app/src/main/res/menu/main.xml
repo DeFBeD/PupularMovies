@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+
+    <item android:id="@+id/action_fav_movies" android:title="@string/favorite_movies"
+          android:orderInCategory="100" app:showAsAction="ifRoom" android:icon="@drawable/ic_star_black_24dp" />
+
+    <item android:id="@+id/action_settings" android:title="@string/action_settings"
+        android:orderInCategory="100" app:showAsAction="ifRoom" android:icon="@drawable/ic_settings_applications_black_24dp" />
+
+
+</menu>
